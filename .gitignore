@@ -20,6 +20,4 @@ output/*.json
 .idea/
 .DS_Store
 
-# Old research project (Weaviate + T5 token-optimization) - kept locally
-# for reference only, not part of this repo
-old_research/
+

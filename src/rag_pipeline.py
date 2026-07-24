@@ -9,19 +9,17 @@ fine-tuning - just retrieve, stuff into a prompt, and ask the LLM.
 
 from langchain_anthropic import ChatAnthropic
 
-from src.config import CLAUDE_MODEL, RETRIEVAL_K
+from src.config import CLAUDE_MODEL, PROMPT_FILE, RETRIEVAL_K
 
-# The instructions we send to Claude along with the retrieved context.
-PROMPT_TEMPLATE = """You are a helpful teaching assistant. Answer the question \
-using ONLY the context below. If the context doesn't contain the answer, say \
-you don't know.
 
-Context:
-{context}
-
-Question: {question}
-
-Answer:"""
+def load_prompt_template():
+    """
+    Read the prompt instructions from prompt.txt. Keeping the prompt in
+    its own plain text file (instead of hardcoded in Python) means you
+    can tweak the wording/instructions without touching any code.
+    """
+    with open(PROMPT_FILE, encoding="utf-8") as f:
+        return f.read()
 
 
 def load_llm():
@@ -47,13 +45,27 @@ def format_chunks_as_context(chunks):
     """
     Turn the retrieved chunks into one readable, labeled block of text
     that we can paste straight into the prompt.
+
+    Example output for 2 chunks:
+        [1] (Statistics doc 1) A population is the entire collection...
+
+        [2] (ComputerScience doc 2) Algorithms are instructions...
     """
-    lines = []
-    for i, chunk in enumerate(chunks, start=1):
+    context_text = ""
+    chunk_number = 1
+
+    for chunk in chunks:
         subject = chunk.metadata.get("subject", "unknown")
         doc_id = chunk.metadata.get("document_id", "?")
-        lines.append(f"[{i}] ({subject} doc {doc_id}) {chunk.page_content}")
-    return "\n\n".join(lines)
+
+        # Label so we (and Claude) can always tell which document a piece
+        # of text came from.
+        label = f"[{chunk_number}] ({subject} doc {doc_id})"
+        context_text = context_text + label + " " + chunk.page_content + "\n\n"
+
+        chunk_number = chunk_number + 1
+
+    return context_text.strip()
 
 
 def generate_answer(llm, question, chunks):
@@ -63,7 +75,8 @@ def generate_answer(llm, question, chunks):
     and ask Claude to answer it.
     """
     context = format_chunks_as_context(chunks)
-    prompt = PROMPT_TEMPLATE.format(context=context, question=question)
+    prompt_template = load_prompt_template()
+    prompt = prompt_template.format(context=context, question=question)
     return llm.invoke(prompt)
 
 

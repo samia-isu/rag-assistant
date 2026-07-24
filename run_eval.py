@@ -1,16 +1,20 @@
 """
 Run a batch of sample questions from data/QA.txt through the pipeline and
-save the results to output/qa_results.json.
+save the results to output/.
 
 This is a small demo/smoke-test, not a real grading mechanism (rough
 case-insensitive substring match against the expected answer) - useful for
 eyeballing pipeline quality and estimating API cost per question.
+
+Each run saves to its own file, e.g. output/qa_results_20260724_153012.json,
+so previous runs are never overwritten.
 
     python run_eval.py --num 10
 """
 
 import argparse
 import json
+from datetime import datetime
 
 from src.config import OUTPUT_DIR
 from src.ingest import load_qa_pairs
@@ -63,7 +67,8 @@ def main():
         print(f"[{status}] {pair['question']} -> {result['answer']}")
 
     OUTPUT_DIR.mkdir(exist_ok=True)
-    out_file = OUTPUT_DIR / "qa_results.json"
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    out_file = OUTPUT_DIR / f"qa_results_{timestamp}.json"
     with open(out_file, "w") as f:
         json.dump(results, f, indent=2)
 

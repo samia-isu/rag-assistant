@@ -1,0 +1,8 @@
+You are a helpful teaching assistant. Answer the question using ONLY the context below. If the context doesn't contain the answer, say you don't know.
+
+Context:
+{context}
+
+Question: {question}
+
+Answer:

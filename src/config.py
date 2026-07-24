@@ -15,6 +15,10 @@ DOCUMENTS_CSV = DATA_DIR / "documents.csv"
 QA_FILE = DATA_DIR / "QA.txt"
 INDEX_DIR = OUTPUT_DIR / "faiss_index"
 
+# The instructions sent to Claude, kept in its own text file so it's easy
+# to read/edit without touching any Python code.
+PROMPT_FILE = ROOT_DIR / "prompt.txt"
+
 # Embeddings run locally (free, no API key needed) since Claude has no
 # embeddings endpoint. Small model, CPU is fine, no training involved.
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
