@@ -14,7 +14,7 @@ import IPython.display
 import ipywidgets
 from langchain_core.documents import Document
 
-from src.rag_pipeline import generate_answer, load_llm, retrieve_chunks
+from src.rag_pipeline import extract_answer_text, generate_answer, load_llm, retrieve_chunks
 from src.vectorstore import build_vectorstore_in_memory
 
 
@@ -233,10 +233,7 @@ def ask_rag(
         llm = load_llm()
         response = generate_answer(llm, question, chunks)
 
-        if isinstance(response.content, str):
-            answer = response.content
-        else:
-            answer = str(response.content)
+        answer = extract_answer_text(response)
 
         # Optional context display before final answer
         if show_context:

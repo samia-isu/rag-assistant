@@ -68,6 +68,33 @@ def format_chunks_as_context(chunks):
     return context_text.strip()
 
 
+def extract_answer_text(response):
+    """
+    Get the plain answer text out of a ChatAnthropic response.
+
+    Usually response.content is already a plain string. But some models
+    (e.g. claude-sonnet-5, especially when it adds citation markers like
+    "[2]") return content as a LIST of content blocks instead, e.g.
+    [{"type": "text", "text": "..."}]. This handles both shapes so the
+    rest of the code always gets back a plain string either way.
+    """
+    content = response.content
+
+    if isinstance(content, str):
+        return content
+
+    if isinstance(content, list):
+        parts = []
+        for block in content:
+            if isinstance(block, str):
+                parts.append(block)
+            elif isinstance(block, dict) and block.get("type") == "text":
+                parts.append(block.get("text", ""))
+        return "".join(parts)
+
+    return str(content)
+
+
 def generate_answer(llm, question, chunks):
     """
     STEP 4 - GENERATE.
@@ -95,7 +122,7 @@ def answer_question(question, vectorstore, llm):
 
     return {
         "question": question,
-        "answer": response.content,
+        "answer": extract_answer_text(response),
         "sources": sources,
         "usage": getattr(response, "usage_metadata", None),
     }

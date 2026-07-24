@@ -12,22 +12,31 @@ from src.config import DOCUMENTS_DIR, QA_FILE
 
 def load_knowledge_base_documents():
     """
-    Read every file in data/documents/ and turn it into a "document".
+    Read every CSV file in data/documents/ and turn it into a "document".
 
-    This is one real text file per document (e.g. data/documents/Physics_1.txt),
-    named "<subject>_<document id>.txt" - the same layout a real deployment
-    would use: a folder of source documents, not a spreadsheet of loose
-    sentences. Each file's lines are joined into one paragraph, which
-    becomes one Document that we can later chunk and embed.
+    This is one real CSV file per document (e.g. data/documents/Physics_1.csv),
+    named "<subject>_<document id>.csv" - the same layout a real deployment
+    would use: 16 separate source documents, not one spreadsheet of loose
+    sentences. Each file has its own subject/document/sentence rows (same
+    columns as the original data/documents.csv, just filtered to that one
+    document). All of a file's sentences are joined into one paragraph,
+    which becomes one Document that we can later chunk and embed.
     """
 
     documents = []
 
     # sorted() so the order is stable/predictable every run
-    for file_path in sorted(DOCUMENTS_DIR.glob("*.txt")):
-        subject, document_id = file_path.stem.rsplit("_", 1)
-        lines = file_path.read_text(encoding="utf-8").splitlines()
-        paragraph = " ".join(line.strip() for line in lines if line.strip())
+    for file_path in sorted(DOCUMENTS_DIR.glob("*.csv")):
+        with open(file_path, newline="", encoding="utf-8") as f:
+            rows = list(csv.DictReader(f, delimiter="\t"))
+
+        sentences = [row["sentence"].strip() for row in rows if row["sentence"].strip()]
+        paragraph = " ".join(sentences)
+
+        # subject/document are the same on every row of this file, so the
+        # first row tells us both.
+        subject = rows[0]["subject"]
+        document_id = rows[0]["document"]
 
         documents.append(
             Document(

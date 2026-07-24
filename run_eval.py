@@ -24,7 +24,7 @@ from src.vectorstore import load_vectorstore
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--num", type=int, default=10, help="How many QA pairs to run")
+    parser.add_argument("--num", type=int, default=101, help="How many QA pairs to run")
     args = parser.parse_args()
 
     qa_pairs = load_qa_pairs()[: args.num]
