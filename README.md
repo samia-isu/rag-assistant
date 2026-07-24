@@ -1,8 +1,6 @@
-# RAG Learning Assistant
+# RAG Assistant
 
-A simple, naive Retrieval-Augmented Generation (RAG) pipeline built for teaching
-purposes (undergrad course project). No fine-tuning, no local LLM, no server to
-run — just documents, a vector index, and a call to the Claude API.
+A simple, naive Retrieval-Augmented Generation (RAG) pipeline built for teaching purposes
 
 ## Pipeline
 
