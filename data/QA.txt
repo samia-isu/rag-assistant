@@ -1,0 +1,102 @@
+Topic	ANSWER	Questions
+Statistics	Sample	A ___________ is a subset of the population. 
+Statistics	Averages	Descriptive statistics summarize the data, with values like maximums, minimums, and ___________.
+Statistics	Looks like population	Name one property of a good sample. 
+Statistics	Population	The ___________ is the entire collection of objects or individuals about which information is desired. 
+Statistics	Inferential statistics	What kind of statistics are used to draw conclusions about a population?
+Statistics	It is often not possible to collect a true population	Why do researchers use a sample rather than a population?
+Statistics	Survey	Give one example of data collection that involves direct observation. 
+Statistics	Random sampling	What kind of sampling ensures representative data?
+Statistics	Cross-sectional studies	What kind of studies involve measuring data at one point in time.?
+Statistics	Retrospective	What type of study is done on data that have already been collected?
+Statistics	Manipulate the health of male crickets	If you want to know whether female crickets choose their mates based on health, what should you do to the male crickets?
+Statistics	Observational	In ___________ studies you report what's happening without influencing the activity by any means.
+Statistics	Experimental Studies	In what kind of studies do researchers manipulate variables?
+Statistics	Draw a causation	What can an experimental study do that an observational study cannot?
+Statistics	Lurking/confounding variables	What kind of variables make it difficult to interpret data?
+Statistics	Randomization	What should be done to reduce the chance of unexpected group differences in a study?
+Statistics	Representative	A sample is unbiased if it is ___________ of the population. 
+Statistics	easy to be picked	Convenience sampling means that people are sampled because they are ___________
+Statistics	Stratified Sampling	In this form of sampling, the population is divided into sections and then participants are randomly selected from each section to form the sample.
+Statistics	Unethical, not interested in causality, expensive, or difficult to run	Name one potential disadvantage of experiments.
+Statistics	Selection bias	Over- or under-representation of some groups in the population produces a ___________ bias.
+Statistics	Response bias	What kind of bias can arise if the researcher ask misleading questions?
+Statistics	Nonresponse bias	What kind of bias can be produced by participants' unwillingness to participate?
+Statistics	Simple random sampling	What sampling method ensures that every member of the sample has an equal chance of being picked?
+Statistics	It is a biased or nonrepresentative sample	A researcher conducts a study that investigates how far people can jump in one leap. The sample consists only of people over six feet tall. What's wrong with this sample?
+Statistics	Convenience sampling	A researcher recruiting a sample asks friends to participate in a study. What sampling method did they use?
+Statistics	Retrospective	College admissions offices often keep records of admission standards over time.  You want to know if your college's admission standards have changed in the last 20 years, what kind of study is this?
+Statistics	drugs are not randomly assigned to clinics	You recruit clinics from around the country to test whether a new medication is more effective than an existing one. You let each clinic choose whether to administer the new drug or the existing drug.  What's wrong with this study?
+Physics	Flash tube	A ___________ emits light to begin the process of creating a laser beam.
+Physics	Removing skin discoloration or tumors	A common application of lasers in medicine is ___________.
+Physics	Coherent	A light is ___________ when the peaks and troughs of the light waves line up precisely.
+Physics	As thin as a human hair	How thin can a fiber optic be?
+Physics	huge waves on the sea	If the flashlight is like ripples in a bathtub, the laser is like ___________.
+Physics	The Persian Gulf	In 2014, where did the US Navy test a Laser Weapon System?
+Physics	Semiconductor	The five best known types of lasers are solid, gas, liquid, ___________, and fiber.
+Physics	Welding or industrial cutting	What are CO2 lasers used for?
+Physics	Masers	What did lasers evolve from?
+Physics	radiation	What does the R in laser stand for?
+Physics	The military	What industry is the biggest user of lasers?
+Physics	A mixture of lights of all different colors	What is "white" light made of?
+Physics	The smallest quantity of energy	What is a quantum?
+Physics	He invented the (concept of) laser	What is Gordon Gould's main achievement?
+Physics	You can make lasers with many different colors	What is the advantage of liquid dye lasers?
+Physics	Monochromatic	What is the name for light of a very precise wavelength and color?
+Physics	Ground state	What is the normal state of an electron?
+Physics	Doping	What is the process of replacing solid atoms with impure ones called?
+Physics	The "Star Wars program"	What is the Strategic Defense Initiative (SDI) commonly known as?
+Physics	Ruby crystal	What object can serve as a red laser's medium?
+Physics	Gas (CO2) laser	What type of laser would be useful for industrial engraving?
+Physics	Green (solid state) laser	What type of light would a laser with an emerald crystal for a medium produce?
+Physics	Microwaves and radio waves	What type of particles do masers emit?
+Physics	Spontaneous emission	When electrons give off a photon of light by itself, this is called ___________.
+Physics	Because the only cost is the energy it takes to make the laser	Why are lasers cheaper than conventional missiles?
+Physics	Organic dye	You are building a liquid laser with an organic dye and a flash lamp. Which of these components is the medium?
+Physics	Gas laser	You want to make a new product that requires you to laser cut both fabric and aluminum, which type of laser should you use?
+Computer Science	Data	A stored program computer treats algorithms the same as what?
+Computer Science	Algorithm	An ________ is a set of instructions - steps to be executed in a specific order.
+Computer Science	The worst error a program can produce is the wrong answer	Aside from crashes and freezes, what is the worst error a program can produce?
+Computer Science	To break the German enigma code	During WWII, Alan Turing built a machine to do what?
+Computer Science	When it experiences incompatibility	How does a program end up in a crash?
+Computer Science	One kind of memory 	How many kinds of memory are there in a stored program computer?
+Computer Science	The first will be on and the second will be off	How would you represent the binary number of 10 (which means 2) with light bulbs? Please note the ORDER of the on-off pattern.
+Computer Science	An infinite loop	If a computer seems to become unresponsive, what is the typical underlying cause?
+Computer Science	Declarative knowledge	In programming, there are two types of knowledge. If you write the code x+3=4, what type of knowledge is it?
+Computer Science	Transistors	Instead of light bulbs, which are far too large to fit inside a computer chip, the computer uses ______.
+Computer Science	Keyboard, mouse or display	Name one example of an input/output device.
+Computer Science	Floating point	There are two types of numbers in programming. One is an integer and the other is what?
+Computer Science	A bug	What do we call an error that leads to a violation against the intention of a coder?
+Computer Science	The rules of the programming language	What is syntax?
+Computer Science	Arithmetic logic unit (ALU)	What is the brain of the computer (you can use abbreviations)?
+Computer Science	IDLE	What is the integrated development environment called in Python?
+Computer Science	Fixed program computers	What kind of computers are made to solve a specific problem?
+Computer Science	Imperative knowledge	What kind of knowledge shows how to solve a problem?
+Computer Science	str	What term does Python use to represent characters?
+Computer Science	int	What term does Python use to represent integers?
+Computer Science	Plot artillery trajectories	What was the Atanasoff and Berry Computer (ABC) designed to do?
+Computer Science	Arithmetic logic unit (ALU)	While running the code a = 3 + 1, which computer component performs the addition?
+Computer Science	Because transistors only deals with on/off states	Why does a computer use the binary system instead of the metric system?
+Ecology	Low-iron pellets	A good way to prevent toucans from contracting hemochromatosis is to feed them ______.
+Ecology	Toys	Aside from food, what should owners provide to their pet toucans?
+Ecology	Parrots	During the late 70's and 80's, the popularity of toucans was replaced by another bird. What is it?
+Ecology	During the 50s-80s	During what period was toucan sold in pet shops in the US?
+Ecology	A flock of toucans	Imagine you travel to South America to get a glimpse of toucans in the wild. Are you more likely to see a solitary toucan or a flock of them?
+Ecology	The Wild Bird Conservation Act (WBCA)	In 1992, Congress passed an Act that restricts importation of endangered birds. What is it? (you may use abbreviation)
+Ecology	Around the eyes	Toucans are covered entirely by feathers except the bill, feet, and ___________.
+Ecology	$10,000 	Toucans are rare and expensive nowadays. A toucan can cost about ____________.
+Ecology	Helps them avoid predators	Toucans' feathers help them blend in with their environments, which serves what survival function?
+Ecology	honeycombs	What are the insides of a toucan's bill shaped like?
+Ecology	18 years	What is the average life span of a toucan in captivity?
+Ecology	Toco toucan	What is the name of the largest toucan species?
+Ecology	Fruits	What is the primary food in a toucan's diet?
+Ecology	The size of the species/body	What is the size of a toucan's bill related to?
+Ecology	Penicillamine	What is typically used to treat hemochromatosis in humans?
+Ecology	A vegetarian diet	What kind of diet contains iron with low bioavailability?
+Ecology	A blood sample (for a DNA test)	What method is used to determine the sex of a toucan?
+Ecology	Phlebotomy	What treatment is used when a toucan is diagnosed with hemochromatosis?
+Ecology	Female (because they are more likely to treat it as a gift)	When a male and a female toucans toss berries at each other, who is more likely to keep/eat the berry?
+Ecology	Toucans have difficulty flying	When visiting a tropical locale, you're more likely to spot a toucan in a treetop rather than flying through the air. Why?
+Ecology	Tree holes	Where do toucans sleep?
+Ecology	South America	Which continent are most toucans from?
+Ecology	Wild toucans eat fresh fruit (which is low in bioavailability)	Why would a wild toucan be less likely to develop hemochromatosis than a captive toucan?

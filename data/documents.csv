@@ -1,0 +1,256 @@
+subject	document	sentence
+ComputerScience	1	Declarative knowledge is a factual statement.
+ComputerScience	1	Imperative knowledge is solving a problem or accomplishing a task.
+ComputerScience	1	Algorithms are instructions with steps to complete in a specific order.
+ComputerScience	1	Algorithms outline a beginning, middle, and end.
+ComputerScience	1	Algorithms can contain a loop instruction that tells the program to repeat.
+ComputerScience	1	Proper termination instructions are crucial in algorithms to prevent infinite loops.
+ComputerScience	1	One of the first computers was designed at Iowa State University in 1937 by Atanasoff and Berry.
+ComputerScience	1	Early computers were called fixed program computers, designed for specific problems.
+ComputerScience	1	The Atanasoff and Berry Computer (ABC) was made to help drop bombs in World War II.
+ComputerScience	1	Alan Turing's machines were built for the Allies to decode German military messages during World War II.
+ComputerScience	1	Early computers operated by executing a set of algorithms while separately receiving operator input.
+ComputerScience	1	Fixed program computers were limited in functionality, only capable of performing predefined tasks.
+ComputerScience	1	The invention of stored program computers marked a significant technological breakthrough.
+ComputerScience	2	In stored program computers, algorithm and data applications are the same program.
+ComputerScience	2	Programs can produce other programs.
+ComputerScience	2	Stored program computers consist of three main parts: the control unit, memory, and the arithmetic logic unit (ALU).
+ComputerScience	2	Stored program computers also have input and output devices, parts we regularly interact with.
+ComputerScience	2	Keyboards, mice, and screens are all examples of input and output devices.
+ComputerScience	2	A computer’s memory stores all the information it receives.
+ComputerScience	2	Computers have one kind of memory, not separate systems.
+ComputerScience	2	The control unit tells the computer what to do.
+ComputerScience	2	The arithmetic logic unit (ALU is a fundamental part of modern computers and acts as the computer’s brain.
+ComputerScience	2	Modern ALUs have billions of transistors.
+ComputerScience	2	Transistors in the ALU can be seen as equivalent to light bulbs.
+ComputerScience	2	Computers using the binary system interpret 0 as off and 1 as on.
+ComputerScience	2	Modern computers can turn these “lightbulbs” on and off billions of times every second.
+ComputerScience	2	Complex operations are possible due to the large number of quick switches transistors can make.
+ComputerScience	2	The binary system allows computers to process large amounts of data and execute algorithms efficiently.
+ComputerScience	3	Commands are built-in instructions for computer programs.
+ComputerScience	3	Built-in instructions for the same type of data differ among programming languages.
+ComputerScience	3	In Python, the command “S-T-R” means “string,” representing characters and letters.
+ComputerScience	3	Syntax, static semantics, and semantics define a programming language.
+ComputerScience	3	Syntax tells us the sequence of characters and symbols allowed in the programming language’s rules.
+ComputerScience	3	Syntax in computer programming is like syntax in human languages.
+ComputerScience	3	Syntax does not care if something has meaning, only that it fits the programming language’s rules.
+ComputerScience	3	Static semantics refer to how meaningful and well-formed a code is.
+ComputerScience	3	Programming languages, unlike human languages, have only one meaning.
+ComputerScience	3	A bug is an error in the code that goes against the intention of the coder.
+ComputerScience	3	Errors can cause the program to quit, resulting in a crash.
+ComputerScience	3	Errors can also cause the program to become unresponsive, resulting in a freeze.
+ComputerScience	3	Crashing and freezing have different underlying causes.
+ComputerScience	3	Incompatibility, when a program expects one input but gets another, can cause a crash.
+ComputerScience	3	When a program gets stuck in an infinite loop and cannot complete a job, it can cause a freeze.
+ComputerScience	4	If a program crashes or freezes, you know that something went wrong immediately.
+ComputerScience	4	The most challenging type of error is when a program runs to completion but produces the wrong output.
+ComputerScience	4	Python is an interpreted language, making debugging easy.
+ComputerScience	4	Interpreted languages can describe what went wrong using the language of the source code.
+ComputerScience	4	Compiled language programs will give you an unintelligible error message in the machine code
+ComputerScience	4	In almost all programming languages, you will first see the integrated development environment (IDE) which Python calls the IDLE.
+ComputerScience	4	IDLE is named after Eric Idle from Monty Python, who also who inspired the name Python.
+ComputerScience	4	The IDLE has highlighting, auto-completion, and smart indenting to help see and write your code.
+ComputerScience	4	The shell in the IDLE is where Python runs the code.
+ComputerScience	4	You can write and run code in the text editor to have many lines of code executed together.
+ComputerScience	4	Everything is an object in Python with many categories that tell you what kind of object it is and what it can do.
+ComputerScience	4	There are two types of numbers in programming: integers and floating point.
+ComputerScience	4	Integers deal with whole numbers and are notated “I-N-T” in Python.
+ComputerScience	4	Floating point deals with decimals and is notated “F-L-O-A-T” in Python.
+Ecology	1	The word ‘toucan’ comes from the Tupi Natives from Brazil
+Ecology	1	The toucan is a member of the Ramphastidae bird family
+Ecology	1	Toucans are mostly found in South America
+Ecology	1	The largest toucan species is the toco toucan
+Ecology	1	The average lifespan of a toucan in captivity is 18 years
+Ecology	1	Toucans do not migrate because of their beak size
+Ecology	1	The anatomy of a toucan helps them stand on trees for long periods of time
+Ecology	1	Toucans rely on natural tree hollows or woodpeckers to make tree holes for their babies
+Ecology	1	Due to their unique anatomy, up to 6 toucans can fit inside one tree hole
+Ecology	1	Both toucan parents take care of their babies
+Ecology	1	Baby toucans (toucanets) hatch blind and naked
+Ecology	1	Unlike most mother birds, toucans leave the nest together once toucanets can fly
+Ecology	1	Female toucans can lay up to 21 eggs
+Ecology	1	Mother and father toucans will take turns sitting on their eggs until they hatch
+Ecology	2	The color of toucans comes from their skin, not their feathers
+Ecology	2	Toucans are covered in feathers except around their feet, bill, and eyes
+Ecology	2	Toucans use their colorful feathers to mimic fruits to avoid predators
+Ecology	2	The gender of a toucan is hard to determine just by looking at them
+Ecology	2	The structure of a toucan’s bill looks like a honeycomb
+Ecology	2	A toucan’s bill is composed of the protein keratin
+Ecology	2	A toucan’s bill has the consistency of a hard sponge
+Ecology	2	A toucan’s bill offers two main advantages: foraging and communication
+Ecology	2	Toucan’s take advantage of their large bill by intimidating smaller birds
+Ecology	2	Toucan’s can reach into deeper places to get food because of their bill
+Ecology	2	Toucans cannot eat during their digestion period
+Ecology	2	To try and find mates, toucans use their bills to toss berries to one another
+Ecology	2	Toucans manage their body temperature with their bill
+Ecology	2	Toucans mostly eat fruit, but occasionally they eat lizards and insects
+Ecology	3	Deforestation and exportation of toucans caused their population to decrease
+Ecology	3	Tocos, Red-billed, Swainson’s, and Keel-billed toucans were commonly exported to the US
+Ecology	3	In the -’s, exotic animals were common pets in the US
+Ecology	3	A toucan’s diet of fresh fruit made owning one expensive
+Ecology	3	To keep toucans entertained, they needed toys
+Ecology	3	Toucans need a large space to thrive, unlike parrots
+Ecology	3	Owning a toucan demanded time, space, and money
+Ecology	3	Aviculture is the breeding and rearing of birds
+Ecology	3	Toucan’s now cost up to $, due to supply and demand
+Ecology	3	Due to the decline in toucan population, the Defenders of Wildlife became dedicated to helping toucan’s
+Ecology	3	More than million exotic birds were exported to the US between -
+Ecology	3	The WBCA restricted the imports of endangered bird species
+Ecology	3	The United States was the world’s biggest buyer of exotic birds
+Ecology	3	The high cost and limited offspring of toucan’s made them difficult to obtain
+Ecology	4	Toucans require a low iron diet to avoid hemochromatosis
+Ecology	4	Hemochromatosis is the leading cause of death for toucans in captivity
+Ecology	4	Hemochromatosis does not affect parrots, finches, and canaries
+Ecology	4	Hemochromatosis causes excess fluid to build up and makes it hard for a toucan to breathe
+Ecology	4	Common symptoms of hemochromatosis include open-mouthed breathing and a swollen abdomen
+Ecology	4	A vet can take a liver biopsy to check for hemochromatosis if a bird is healthy enough
+Ecology	4	Golden brown deposits of iron in liver cells confirms a diagnosis of hemochromatosis
+Ecology	4	An enlarged liver does not confirm whether hemochromatosis is present
+Ecology	4	Enlargement of the heart can occur in hemochromatosis, but doctors do not know why
+Ecology	4	Hemochromatosis enlarges a toucan’s liver and is life threatening
+Ecology	4	A phlebotomy is one way to treat hemochromatosis in birds, it decreases iron content
+Ecology	4	A phlebotomy is the practice of drawing blood
+Ecology	4	Cheap dog food can be fed to toucans because of their low iron content
+Ecology	4	Toucans require a low iron vegetarian diet to decrease the chance of getting hemochromatosis
+Physics	1	Einstein discovered quantum theory
+Physics	1	Einstein discovered stimulated emission
+Physics	1	Quantum theory and stimulated emission are foundations of laser science
+Physics	1	Lasers were developed from masers
+Physics	1	Masers produce microwaves and radio waves
+Physics	1	Masers were invented by Charles Townes and Arthur Schawlow, who received the Nobel Prize
+Physics	1	Gordon Gould's main achievement is the invention of laser
+Physics	1	After two decades of legal battles, Gordon Gould secured a patent for the laser invention
+Physics	1	Laser came from combining the words light and maser
+Physics	1	Early inventors were uncertain of the use of lasers
+Physics	1	Lasers are now used everywhere, such as for DVD or Blu-ray players, surgeries (e.g, LASIK), barcode scanners, emails, etc
+Physics	1	If the flashlight is like ripples in a bathtub and the laser is like huge waves on the sea
+Physics	1	White light is a mixture of lights of all different colors
+Physics	1	A laser makes a monochromatic light
+Physics	1	A monochromatic light has specific colors (e.g., , red, green, ultraviolet)
+Physics	1	A light is coherent when the peaks and troughs of the light waves line up precisely
+Physics	1	Laser beams are like aligned soldiers and flashlights are like crowd of commuters
+Physics	1	The light??s specificity, distance, and consistency make lasers precise, powerful beams of energy
+Physics	2	Creating a laser requires atoms with electrons
+Physics	2	A load of atoms could be solid, liquid, or gas, and is called the medium
+Physics	2	To create a laser, you also need something to stimulate the medium
+Physics	2	A flash tube emits light to stimulate medium
+Physics	2	Ruby crystal can serve as a red laser's medium
+Physics	2	Ruby crystal absorbs energy from flash tube (absorption)
+Physics	2	The electrons quickly return to their original energy level called ground state
+Physics	2	Electrons release energy when revert to ground state, which is called spontaneous emission
+Physics	2	Traveling photons can stimulate other already-excited atoms, making them emit a photon
+Physics	2	Stimulated emission doubles the light
+Physics	2	Radio waves, X-rays and infrared light, lasers make electromagnetic radiation
+Physics	2	Radiation is electrons giving off absorbed energy
+Physics	2	Shifting an electron up an energy level is absorption
+Physics	2	Spontaneous emission of radiation is the atom giving off light or emitting radiation
+Physics	2	Typically, a medium has more electrons in their ground state than their excited state
+Physics	2	 The meta-stable state is a short-term excited condition
+Physics	2	We amplify light using stimulated emission of radiation
+Physics	2	LASER stands for Light Amplification by Stimulated Emission of Radiation
+Physics	3	Quantum is the smallest quantity of energy
+Physics	3	To make an electron move to a higher level, a precise amount of energy should be fed
+Physics	3	When lasers emits energy, they create a lot of photons, identical in energy, frequency, and wavelength
+Physics	3	Frequency and wavelength determine the color of the light
+Physics	3	Laser light is monochromatic
+Physics	3	There are five laser types: solid, gas, liquid, semiconductor, and fiber
+Physics	3	Doping is the process of replacing solid atoms with impure ones
+Physics	3	Gas lasers produce continuous beams
+Physics	3	Gas lasers use noble gas or CO2 as the medium
+Physics	3	CO2 lasers are used in industrial cutting and engraving
+Physics	3	Liquid dye lasers can make lasers with many different colors
+Physics	3	Solid, liquid, and gas lasers require expensive equipment
+Physics	3	Semiconductors are small and cheap
+Physics	3	Semiconductor lasers are found in CD players, printers, and barcode scanners
+Physics	3	A fiber optic is as thin as a human hair
+Physics	3	Lasers can send signals without data loss
+Physics	3	Data sent over a fiber optic cable is not vulnerable to electrical interference
+Physics	3	Using fiber optic cable results in fewer signal dropouts
+Physics	4	The James Bond movie Goldfinger (1964) introduced people to lasers
+Physics	4	CO2 lasers are used for cutting fabrics
+Physics	4	Lasers can remove skin discoloration or tumors
+Physics	4	LASIK uses lasers to reshape the cornea, which is an irreversible procedure
+Physics	4	Reversible LASIK places a special contact lens on the cornea
+Physics	4	Barcode scanners utilize lasers for data reading
+Physics	4	DVD players utilize lasers for data reading
+Physics	4	Lasers are also used to send and receive signals for the internet
+Physics	4	One of the biggest users of lasers is the military
+Physics	4	Military uses guided weapons and missiles
+Physics	4	Strategic Defense Initiative (SDI) is commonly known as the "Star Wars program
+Physics	4	SDI planned to use nuclear reactor to power lasers in space
+Physics	4	SDI was never implemented
+Physics	4	In 2014, the US Navy tested a Laser Weapon System in the Persian Gulf
+Physics	4	In low energy state, the laser can be used to cripple the sensors of a target
+Physics	4	In high energy state, the laser can destroy the target altogether
+Physics	4	Lasers are cheaper than conventional missiles because the only cost is the energy it takes to make the laser
+Physics	4	Lasers are cheaper because they do not require hardware missiles and storage
+Statistics	1	Statistics involves collecting and analyzing data.
+Statistics	1	The population is the entire collection of objects or individuals about which information is desired. 
+Statistics	1	A population can be broad, like all people in a country.
+Statistics	1	A population can be specific, like college students.
+Statistics	1	Factors like births, deaths, immigration, or emigration continuously change the population.
+Statistics	1	Researchers use a sample rather than a population 
+Statistics	1	It is often not possible to collect a true population. 
+Statistics	1	A sample is a subset of the population. 
+Statistics	1	Capital or uppercase N refers to the population.
+Statistics	1	Lowercase n refers to the sample.
+Statistics	1	Finite population statistics is collecting a sample using a random small group of people.
+Statistics	1	A good sample looks like the population.
+Statistics	1	There are two types of statistics, descriptive statistics and inferential statistics..
+Statistics	1	Descriptive statistics describes data, like a summary of data.
+Statistics	1	Examples of descriptive statistics are averages, maximum, and minimum.
+Statistics	1	Inferential statistics are used to infer or predict the data we don??t have.
+Statistics	1	The weather stations are samples, and the weather in the entire city is a population.
+Statistics	1	We draw inferences about the weather in places without weather stations.
+Statistics	2	Descriptive statistics is about graphing, describing, and characterizing.
+Statistics	2	Descriptive statistics tell you about the sample.
+Statistics	2	Inferential statistics tell you about the population.
+Statistics	2	Random sampling is the best way to collect data. 
+Statistics	2	Random sampling means that everyone in the population is equally likely to be picked.
+Statistics	2	Data collection can be done two ways, via experiments or direct observation.
+Statistics	2	Courses about experiments are called research methods.
+Statistics	2	A survey is the most common type of a direct observation.
+Statistics	2	There are three types of observational studies cross-sectional, retrospective, and prospective studies.
+Statistics	2	The most common type of observational study is a cross-sectional study. 
+Statistics	2	Cross-sectional studies take a measurement at a given time and look at the data.
+Statistics	2	Cross-sectional studies stop the time.
+Statistics	2	Retrospective studies look at existing data that has already been collected.
+Statistics	2	Retrospective studies go back in time.
+Statistics	2	Robert Fogel conducted a retrospective study on civil war medical records.
+Statistics	2	A lot of retrospective studies are not done by the people who collected the data.
+Statistics	2	Prospective studies go forward in time.
+Statistics	2	Economist call prospective studies longitudinal studies.
+Statistics	2	The person who collects data in a prospective study is usually the person who designed the study.
+Statistics	3	In observational studies, you report what's happening without influencing the activity.
+Statistics	3	The conclusions might be wrong if there is a confounding variable. 
+Statistics	3	The researchers often forget to collect data regarding confounding variable. 
+Statistics	3	Observational studies cannot show causation. 
+Statistics	3	It is impossible to collect all possible variables in observational studies.
+Statistics	3	Confounding or lurking variables are hidden variables that affect the results.
+Statistics	3	We cannot conclude that smoking causes lung cancer based on observational studies.
+Statistics	3	Confounding variables, such as bad health habit, can cause both smoking behavior and lung cancer.
+Statistics	3	The more firefighters at a scene, the more fire damage observed.
+Statistics	3	Size of the fire can be a confounding variable.
+Statistics	3	The foot size of kids correlates with intelligence.
+Statistics	3	Age of kids can be a confounding variable.
+Statistics	3	In an experimental study, researchers manipulate variables.
+Statistics	3	To know whether female crickets choose their mates based on health, you should manipulate the health of male crickets.
+Statistics	3	An experimental study can draw a causation.
+Statistics	3	Randomization ensures that all confounding variables are equal across groups.
+Statistics	3	Randomization is much like "duct tape in statistics."
+Statistics	3	 Ronald Fished is considered the father of modern day statistics and experimental design.
+Statistics	4	Experiments can be expensive, difficult to run, and unethical.
+Statistics	4	If causality is not the focus, you do not need to run an experiment.
+Statistics	4	We cannot conduct an experiment about smoking and lung cancer because of ethics issue.
+Statistics	4	Vaccine trials differ from smoking studies because there is no intention to cause harm.
+Statistics	4	Observational studies are fraught with issues. 
+Statistics	4	Simple random sampling (SRS) means that every member of the sample is equally likely to be picked.
+Statistics	4	In convenience sampling, sampling is based on ease of access. 
+Statistics	4	In stratified sampling, participants are selected from subgroups of the population.
+Statistics	4	A sample should be unbiased.
+Statistics	4	A biased sample can overly represent one group.
+Statistics	4	The results of a survey in a shopping mall in the middle of a weekday cannot be generalized to those who work during the weekdays.
+Statistics	4	When conducting surveys, think about who you can generalize those results to.
+Statistics	4	Over-representation or under-representation can produce a selection bias.
+Statistics	4	Nonresponse bias occurs when participants ignore or refuse to answer a survey.
+Statistics	4	Response bias can arise if the researcher asks misleading questions.

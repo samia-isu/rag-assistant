@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Vector index + generated outputs (rebuild with build_index.py / run_eval.py)
+output/faiss_index/
+output/*.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Old research project (Weaviate + T5 token-optimization) - kept locally
+# for reference only, not part of this repo
+old_research/
