@@ -67,3 +67,16 @@ def load_vectorstore():
         embeddings,
         allow_dangerous_deserialization=True,
     )
+
+
+def build_vectorstore_in_memory(documents):
+    """
+    Same as build_vectorstore(), but does NOT save anything to disk.
+
+    Used by the web UI (app.py) when someone types in their own documents
+    on the spot - those are one-off, temporary, and should never overwrite
+    the real saved index built from data/documents.csv.
+    """
+    chunks = split_into_chunks(documents)
+    embeddings = get_embedding_model()
+    return FAISS.from_documents(chunks, embeddings)

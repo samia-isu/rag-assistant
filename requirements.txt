@@ -6,3 +6,9 @@ langchain-text-splitters
 sentence-transformers
 faiss-cpu
 python-dotenv
+funix
+ipywidgets
+streamlit
+anthropic
+pandas
+langchain-core
