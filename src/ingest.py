@@ -7,46 +7,27 @@ import csv
 
 from langchain_core.documents import Document
 
-from src.config import DOCUMENTS_CSV, QA_FILE
+from src.config import DOCUMENTS_DIR, QA_FILE
 
 
 def load_knowledge_base_documents():
     """
-    Read data/documents.csv and turn it into a list of "documents".
+    Read every file in data/documents/ and turn it into a "document".
 
-    The CSV has one row per SENTENCE, tagged with which subject and
-    document it belongs to, like this:
-
-        subject          document   sentence
-        ComputerScience  1          Algorithms are instructions...
-        ComputerScience  1          Algorithms outline a beginning...
-
-    We don't want to embed single sentences on their own (too little
-    context), so we glue all the sentences of the same (subject, document)
-    pair back together into one paragraph. Each paragraph becomes one
-    Document that we can later chunk and embed.
+    This is one real text file per document (e.g. data/documents/Physics_1.txt),
+    named "<subject>_<document id>.txt" - the same layout a real deployment
+    would use: a folder of source documents, not a spreadsheet of loose
+    sentences. Each file's lines are joined into one paragraph, which
+    becomes one Document that we can later chunk and embed.
     """
 
-    # sentences_by_doc looks like: {("ComputerScience", "1"): ["sentence 1", "sentence 2", ...]}
-    sentences_by_doc = {}
-    doc_order = []  # keeps track of the order documents first appeared in
-
-    with open(DOCUMENTS_CSV, newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f, delimiter="\t")
-        for row in reader:
-            doc_key = (row["subject"], row["document"])
-
-            if doc_key not in sentences_by_doc:
-                sentences_by_doc[doc_key] = []
-                doc_order.append(doc_key)
-
-            sentences_by_doc[doc_key].append(row["sentence"].strip())
-
-    # Now join each document's sentences into one paragraph.
     documents = []
-    for subject, document_id in doc_order:
-        sentences = sentences_by_doc[(subject, document_id)]
-        paragraph = " ".join(sentences)
+
+    # sorted() so the order is stable/predictable every run
+    for file_path in sorted(DOCUMENTS_DIR.glob("*.txt")):
+        subject, document_id = file_path.stem.rsplit("_", 1)
+        lines = file_path.read_text(encoding="utf-8").splitlines()
+        paragraph = " ".join(line.strip() for line in lines if line.strip())
 
         documents.append(
             Document(

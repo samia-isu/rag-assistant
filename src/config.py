@@ -11,7 +11,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT_DIR / "data"
 OUTPUT_DIR = ROOT_DIR / "output"
 
-DOCUMENTS_CSV = DATA_DIR / "documents.csv"
+DOCUMENTS_DIR = DATA_DIR / "documents"
 QA_FILE = DATA_DIR / "QA.txt"
 INDEX_DIR = OUTPUT_DIR / "faiss_index"
 

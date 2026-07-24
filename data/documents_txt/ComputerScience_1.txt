@@ -1,0 +1,13 @@
+Declarative knowledge is a factual statement.
+Imperative knowledge is solving a problem or accomplishing a task.
+Algorithms are instructions with steps to complete in a specific order.
+Algorithms outline a beginning, middle, and end.
+Algorithms can contain a loop instruction that tells the program to repeat.
+Proper termination instructions are crucial in algorithms to prevent infinite loops.
+One of the first computers was designed at Iowa State University in 1937 by Atanasoff and Berry.
+Early computers were called fixed program computers, designed for specific problems.
+The Atanasoff and Berry Computer (ABC) was made to help drop bombs in World War II.
+Alan Turing's machines were built for the Allies to decode German military messages during World War II.
+Early computers operated by executing a set of algorithms while separately receiving operator input.
+Fixed program computers were limited in functionality, only capable of performing predefined tasks.
+The invention of stored program computers marked a significant technological breakthrough.

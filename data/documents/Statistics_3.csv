@@ -1,0 +1,19 @@
+subject	document	sentence
+Statistics	3	In observational studies, you report what's happening without influencing the activity.
+Statistics	3	The conclusions might be wrong if there is a confounding variable.
+Statistics	3	The researchers often forget to collect data regarding confounding variable.
+Statistics	3	Observational studies cannot show causation.
+Statistics	3	It is impossible to collect all possible variables in observational studies.
+Statistics	3	Confounding or lurking variables are hidden variables that affect the results.
+Statistics	3	We cannot conclude that smoking causes lung cancer based on observational studies.
+Statistics	3	Confounding variables, such as bad health habit, can cause both smoking behavior and lung cancer.
+Statistics	3	The more firefighters at a scene, the more fire damage observed.
+Statistics	3	Size of the fire can be a confounding variable.
+Statistics	3	The foot size of kids correlates with intelligence.
+Statistics	3	Age of kids can be a confounding variable.
+Statistics	3	In an experimental study, researchers manipulate variables.
+Statistics	3	To know whether female crickets choose their mates based on health, you should manipulate the health of male crickets.
+Statistics	3	An experimental study can draw a causation.
+Statistics	3	Randomization ensures that all confounding variables are equal across groups.
+Statistics	3	"Randomization is much like ""duct tape in statistics."""
+Statistics	3	Ronald Fished is considered the father of modern day statistics and experimental design.

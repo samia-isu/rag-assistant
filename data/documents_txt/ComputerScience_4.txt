@@ -1,0 +1,14 @@
+If a program crashes or freezes, you know that something went wrong immediately.
+The most challenging type of error is when a program runs to completion but produces the wrong output.
+Python is an interpreted language, making debugging easy.
+Interpreted languages can describe what went wrong using the language of the source code.
+Compiled language programs will give you an unintelligible error message in the machine code
+In almost all programming languages, you will first see the integrated development environment (IDE) which Python calls the IDLE.
+IDLE is named after Eric Idle from Monty Python, who also who inspired the name Python.
+The IDLE has highlighting, auto-completion, and smart indenting to help see and write your code.
+The shell in the IDLE is where Python runs the code.
+You can write and run code in the text editor to have many lines of code executed together.
+Everything is an object in Python with many categories that tell you what kind of object it is and what it can do.
+There are two types of numbers in programming: integers and floating point.
+Integers deal with whole numbers and are notated “I-N-T” in Python.
+Floating point deals with decimals and is notated “F-L-O-A-T” in Python.

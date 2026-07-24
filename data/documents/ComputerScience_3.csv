@@ -1,0 +1,16 @@
+subject	document	sentence
+ComputerScience	3	Commands are built-in instructions for computer programs.
+ComputerScience	3	Built-in instructions for the same type of data differ among programming languages.
+ComputerScience	3	"In Python, the command ""S-T-R"" means ""string,"" representing characters and letters."
+ComputerScience	3	Syntax, static semantics, and semantics define a programming language.
+ComputerScience	3	Syntax tells us the sequence of characters and symbols allowed in the programming language's rules.
+ComputerScience	3	Syntax in computer programming is like syntax in human languages.
+ComputerScience	3	Syntax does not care if something has meaning, only that it fits the programming language's rules.
+ComputerScience	3	Static semantics refer to how meaningful and well-formed a code is.
+ComputerScience	3	Programming languages, unlike human languages, have only one meaning.
+ComputerScience	3	A bug is an error in the code that goes against the intention of the coder.
+ComputerScience	3	Errors can cause the program to quit, resulting in a crash.
+ComputerScience	3	Errors can also cause the program to become unresponsive, resulting in a freeze.
+ComputerScience	3	Crashing and freezing have different underlying causes.
+ComputerScience	3	Incompatibility, when a program expects one input but gets another, can cause a crash.
+ComputerScience	3	When a program gets stuck in an infinite loop and cannot complete a job, it can cause a freeze.

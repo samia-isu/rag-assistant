@@ -1,0 +1,19 @@
+Descriptive statistics is about graphing, describing, and characterizing.
+Descriptive statistics tell you about the sample.
+Inferential statistics tell you about the population.
+Random sampling is the best way to collect data.
+Random sampling means that everyone in the population is equally likely to be picked.
+Data collection can be done two ways, via experiments or direct observation.
+Courses about experiments are called research methods.
+A survey is the most common type of a direct observation.
+There are three types of observational studies cross-sectional, retrospective, and prospective studies.
+The most common type of observational study is a cross-sectional study.
+Cross-sectional studies take a measurement at a given time and look at the data.
+Cross-sectional studies stop the time.
+Retrospective studies look at existing data that has already been collected.
+Retrospective studies go back in time.
+Robert Fogel conducted a retrospective study on civil war medical records.
+A lot of retrospective studies are not done by the people who collected the data.
+Prospective studies go forward in time.
+Economist call prospective studies longitudinal studies.
+The person who collects data in a prospective study is usually the person who designed the study.

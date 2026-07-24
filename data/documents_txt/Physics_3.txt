@@ -1,0 +1,18 @@
+Quantum is the smallest quantity of energy
+To make an electron move to a higher level, a precise amount of energy should be fed
+When lasers emits energy, they create a lot of photons, identical in energy, frequency, and wavelength
+Frequency and wavelength determine the color of the light
+Laser light is monochromatic
+There are five laser types: solid, gas, liquid, semiconductor, and fiber
+Doping is the process of replacing solid atoms with impure ones
+Gas lasers produce continuous beams
+Gas lasers use noble gas or CO2 as the medium
+CO2 lasers are used in industrial cutting and engraving
+Liquid dye lasers can make lasers with many different colors
+Solid, liquid, and gas lasers require expensive equipment
+Semiconductors are small and cheap
+Semiconductor lasers are found in CD players, printers, and barcode scanners
+A fiber optic is as thin as a human hair
+Lasers can send signals without data loss
+Data sent over a fiber optic cable is not vulnerable to electrical interference
+Using fiber optic cable results in fewer signal dropouts

@@ -1,0 +1,15 @@
+In stored program computers, algorithm and data applications are the same program.
+Programs can produce other programs.
+Stored program computers consist of three main parts: the control unit, memory, and the arithmetic logic unit (ALU).
+Stored program computers also have input and output devices, parts we regularly interact with.
+Keyboards, mice, and screens are all examples of input and output devices.
+A computer’s memory stores all the information it receives.
+Computers have one kind of memory, not separate systems.
+The control unit tells the computer what to do.
+The arithmetic logic unit (ALU is a fundamental part of modern computers and acts as the computer’s brain.
+Modern ALUs have billions of transistors.
+Transistors in the ALU can be seen as equivalent to light bulbs.
+Computers using the binary system interpret 0 as off and 1 as on.
+Modern computers can turn these “lightbulbs” on and off billions of times every second.
+Complex operations are possible due to the large number of quick switches transistors can make.
+The binary system allows computers to process large amounts of data and execute algorithms efficiently.

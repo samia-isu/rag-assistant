@@ -1,0 +1,15 @@
+Experiments can be expensive, difficult to run, and unethical.
+If causality is not the focus, you do not need to run an experiment.
+We cannot conduct an experiment about smoking and lung cancer because of ethics issue.
+Vaccine trials differ from smoking studies because there is no intention to cause harm.
+Observational studies are fraught with issues.
+Simple random sampling (SRS) means that every member of the sample is equally likely to be picked.
+In convenience sampling, sampling is based on ease of access.
+In stratified sampling, participants are selected from subgroups of the population.
+A sample should be unbiased.
+A biased sample can overly represent one group.
+The results of a survey in a shopping mall in the middle of a weekday cannot be generalized to those who work during the weekdays.
+When conducting surveys, think about who you can generalize those results to.
+Over-representation or under-representation can produce a selection bias.
+Nonresponse bias occurs when participants ignore or refuse to answer a survey.
+Response bias can arise if the researcher asks misleading questions.

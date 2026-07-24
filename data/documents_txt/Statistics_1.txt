@@ -1,0 +1,18 @@
+Statistics involves collecting and analyzing data.
+The population is the entire collection of objects or individuals about which information is desired.
+A population can be broad, like all people in a country.
+A population can be specific, like college students.
+Factors like births, deaths, immigration, or emigration continuously change the population.
+Researchers use a sample rather than a population
+It is often not possible to collect a true population.
+A sample is a subset of the population.
+Capital or uppercase N refers to the population.
+Lowercase n refers to the sample.
+Finite population statistics is collecting a sample using a random small group of people.
+A good sample looks like the population.
+There are two types of statistics, descriptive statistics and inferential statistics..
+Descriptive statistics describes data, like a summary of data.
+Examples of descriptive statistics are averages, maximum, and minimum.
+Inferential statistics are used to infer or predict the data we don??t have.
+The weather stations are samples, and the weather in the entire city is a population.
+We draw inferences about the weather in places without weather stations.

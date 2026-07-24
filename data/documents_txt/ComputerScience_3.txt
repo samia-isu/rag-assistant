@@ -1,0 +1,15 @@
+Commands are built-in instructions for computer programs.
+Built-in instructions for the same type of data differ among programming languages.
+In Python, the command “S-T-R” means “string,” representing characters and letters.
+Syntax, static semantics, and semantics define a programming language.
+Syntax tells us the sequence of characters and symbols allowed in the programming language’s rules.
+Syntax in computer programming is like syntax in human languages.
+Syntax does not care if something has meaning, only that it fits the programming language’s rules.
+Static semantics refer to how meaningful and well-formed a code is.
+Programming languages, unlike human languages, have only one meaning.
+A bug is an error in the code that goes against the intention of the coder.
+Errors can cause the program to quit, resulting in a crash.
+Errors can also cause the program to become unresponsive, resulting in a freeze.
+Crashing and freezing have different underlying causes.
+Incompatibility, when a program expects one input but gets another, can cause a crash.
+When a program gets stuck in an infinite loop and cannot complete a job, it can cause a freeze.

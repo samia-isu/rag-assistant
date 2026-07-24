@@ -1,0 +1,18 @@
+Creating a laser requires atoms with electrons
+A load of atoms could be solid, liquid, or gas, and is called the medium
+To create a laser, you also need something to stimulate the medium
+A flash tube emits light to stimulate medium
+Ruby crystal can serve as a red laser's medium
+Ruby crystal absorbs energy from flash tube (absorption)
+The electrons quickly return to their original energy level called ground state
+Electrons release energy when revert to ground state, which is called spontaneous emission
+Traveling photons can stimulate other already-excited atoms, making them emit a photon
+Stimulated emission doubles the light
+Radio waves, X-rays and infrared light, lasers make electromagnetic radiation
+Radiation is electrons giving off absorbed energy
+Shifting an electron up an energy level is absorption
+Spontaneous emission of radiation is the atom giving off light or emitting radiation
+Typically, a medium has more electrons in their ground state than their excited state
+The meta-stable state is a short-term excited condition
+We amplify light using stimulated emission of radiation
+LASER stands for Light Amplification by Stimulated Emission of Radiation
