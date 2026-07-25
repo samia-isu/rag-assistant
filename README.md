@@ -56,7 +56,7 @@ python ask.py --question "What is a subset of the population called?"
 `output/qa_results.json`:
 
 ```bash
-python run_eval.py --num 100
+python run_eval.py
 ```
 
 ## The data
