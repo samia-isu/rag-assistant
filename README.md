@@ -11,17 +11,17 @@ data/documents/*.csv                       data/QA.txt
       v
 [1] Ingest & load each file as one document  
       v
-[2] Chunk (RecursiveCharacterTextSplitter, chunk_size=400, overlap=50)
+[2] Chunking (RecursiveCharacterTextSplitter, chunk_size=400, overlap=50)
       v
-[3] Embedding + Vector Index (sentence-transformers/all-MiniLM-L6-v2,FAISS)   
+[3] Embedding and Vector Index (sentence-transformers/all-MiniLM-L6-v2,FAISS)   
       v
 [4] Retrieve top-k chunks for a question (RETRIEVAL_K = 4)
       v
-[4] claude-haiku-4-5 Generate answer with Claude   
+[5] claude-haiku-4-5-20251001 Generate the answer    
 ```
 
-Only step 4 costs money (a Claude API call per question). Step 3's embeddings
-run locally on CPU with a small sentence-transformers model
+Only step 5 costs money (a Claude API call per question). Step 3's embeddings
+run locally on CPU with a small sentence-transformers model `all-MiniLM-L6-v2`.
 
 ## Architechture
 ![Basic RAG Pipeline](rag_pipeline.png)
