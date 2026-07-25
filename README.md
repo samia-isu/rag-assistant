@@ -6,7 +6,7 @@ A simple, naive Retrieval-Augmented Generation (RAG) pipeline built for teaching
 
 ```
 data/documents/*.csv                       data/QA.txt
-(16 per-document)                    (sample questions for eval)
+(16 document)                    (sample questions for eval)
       |                                    
       v
 [1] Ingest & load each file as one document  
@@ -23,7 +23,7 @@ data/documents/*.csv                       data/QA.txt
 Only step 5 costs money (a Claude API call per question). Step 3's embeddings
 run locally on CPU with a small sentence-transformers model `all-MiniLM-L6-v2`.
 
-## Architechture
+## Architecture
 ![Basic RAG Pipeline](rag_pipeline.png)
 
 ## Setup
@@ -128,8 +128,8 @@ To stop the app: `Ctrl+C` in the terminal running it.
 ├── src/
 │   ├── config.py               #paths + model settings, shared by everything below
 │   ├── ingest.py               # STEP 1: load data/documents/*.csv, load QA.txt
-│   ├── vectorstore.py          # STEP 2: chunk, embed, build/load the FAISS index
-│   └── rag_pipeline.py         # STEP 3+4: retrieve chunks, generate answer with Claude
+│   ├── vectorstore.py          # STEP 2+3: chunk, embed, build/load the FAISS index
+│   └── rag_pipeline.py         # STEP 4+5: retrieve chunks, generate answer with Claude
 │
 ├── build_index.py             # CLI: build the FAISS index from data/documents/ (run once)
 ├── ask.py                     # CLI: ask a single question
