@@ -9,7 +9,7 @@ data/documents/*.csv                       data/QA.txt
 (16 document)                    (sample questions for eval)
       |                                    
       v
-[1] Ingest & load each file as one document  
+[1] Ingest & load each file  
       v
 [2] Chunking (RecursiveCharacterTextSplitter, chunk_size=400, overlap=50)
       v
@@ -20,7 +20,7 @@ data/documents/*.csv                       data/QA.txt
 [5] claude-haiku-4-5-20251001 Generate the answer    
 ```
 
-Only step 5 costs money (a Claude API call per question). Step 3's embeddings
+Only step 5, costs money (a Claude API call per question). Step 3, embeddings
 run locally on CPU with a small sentence-transformers model `all-MiniLM-L6-v2`.
 
 ## Architecture
@@ -58,8 +58,10 @@ python ask.py --question "What is a subset of the population called?"
 ```bash
 python run_eval.py
 ```
+This result will come from `run_eval.py` run against
+`data/QA.txt` (model: `claude-haiku-4-5-20251001`) 
 
-## The data
+## Data
 
 | Path | Description |
 |---|---|
@@ -86,8 +88,9 @@ Sources: [
 Token usage: input_tokens=350, output_tokens=33, total_tokens=383
 ```
 
-This result come from `run_eval.py` run against
-`data/QA.txt` (model: `claude-haiku-4-5-20251001`) — all 4 retrieved chunks
+This result come from `ask.py` run against the question
+`What is a subset of the population called?` (model: `claude-haiku-4-5-20251001`) — all 4 retrieved chunks
+
 ## How to run apps.py
 
 `apps.py` is an interactive web UI (built with [Funix](https://funix.io)) where you

@@ -15,12 +15,10 @@ DOCUMENTS_DIR = DATA_DIR / "documents"
 QA_FILE = DATA_DIR / "QA.txt"
 INDEX_DIR = OUTPUT_DIR / "faiss_index"
 
-# The instructions sent to Claude, kept in its own text file so it's easy
-# to read/edit without touching any Python code.
+
 PROMPT_FILE = ROOT_DIR / "prompt.txt"
 
-# Embeddings run locally (free, no API key needed) since Claude has no
-# embeddings endpoint. Small model, CPU is fine, no training involved.
+# Embeddings run locally (Claude has no embeddings endpoint). Small model from Hugging Face is used to keep the index small and fast.
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Generation goes through the Claude API (this is the only paid/API-key step).

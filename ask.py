@@ -1,12 +1,3 @@
-"""
-Ask a single question against the RAG pipeline.
-
-    python ask.py --question "What is inferential statistics?"
-
-Each run saves its result to its own file in output/, e.g.
-output/answer_20260724_153012.json, so previous runs are never overwritten.
-"""
-
 import argparse
 import json
 from datetime import datetime

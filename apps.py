@@ -24,20 +24,7 @@ from src.vectorstore import build_vectorstore_in_memory
 
 
 def __extract_text_from_file(file_bytes: bytes) -> str:
-    """
-    Turn one uploaded file's raw bytes into plain text, regardless of
-    whether it's a .txt, .csv, or .pdf file.
-
-    Funix's file upload widget only gives us raw bytes - not the original
-    filename or extension - so the file type is detected from its content
-    instead:
-      - PDF files start with the 4 bytes b"%PDF" (a real property of the
-        PDF format), so we check for that and extract text with PyMuPDF.
-      - Otherwise we assume it's plain text (covers both .txt and .csv).
-        If it looks like our subject/document/sentence CSV format (same
-        one data_analysis.py produces), we pull out just the sentences;
-        any other text file is used as-is.
-    """
+    
     if file_bytes[:4] == b"%PDF":
         with fitz.open(stream=file_bytes, filetype="pdf") as pdf:
             return "\n".join(page.get_text() for page in pdf)

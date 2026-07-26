@@ -1,15 +1,3 @@
-"""
-Split data/documents.csv (255 sentences, tagged by subject + document id)
-into one CSV file per document - 16 files total.
-
-Each output file keeps the same columns as the original (subject, document,
-sentence), just filtered down to that one document's rows, and is named
-after its subject and document number, e.g. data/documents_csv/Physics_3.csv
-
-Run:
-    python data_analysis.py
-"""
-
 import csv
 from collections import defaultdict
 from pathlib import Path
@@ -28,12 +16,6 @@ QUOTE_REPLACEMENTS = {
 
 
 def clean_sentence(sentence: str) -> str:
-    """
-    Normalize one sentence:
-      - strip stray leading/trailing whitespace (found in several rows)
-      - collapse any repeated internal whitespace into single spaces
-      - replace smart/curly quotes with plain straight quotes
-    """
     for curly, straight in QUOTE_REPLACEMENTS.items():
         sentence = sentence.replace(curly, straight)
 

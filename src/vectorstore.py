@@ -3,8 +3,7 @@ STEP 2 of the RAG pipeline: split documents into small chunks, turn each
 chunk into a vector (a list of numbers that captures its meaning), and
 save those vectors so we can search them later.
 
-Nothing in this file calls a paid API - the embedding model runs on your
-own computer (CPU is fine), and it is NOT trained/fine-tuned, only used.
+STEP 3 the embedding model runs on computer it is NOT trained/fine-tuned, only used.
 """
 
 from langchain_community.vectorstores import FAISS
@@ -24,14 +23,7 @@ def get_embedding_model():
 
 
 def split_into_chunks(documents):
-    """
-    Break each document into smaller pieces (~400 characters, with some
-    overlap between pieces so we don't cut a sentence awkwardly in half).
 
-    We chunk because: (1) embedding models work better on short passages,
-    and (2) we only want to feed the LLM the small relevant piece later,
-    not the whole document.
-    """
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=CHUNK_SIZE,
         chunk_overlap=CHUNK_OVERLAP,
@@ -73,7 +65,7 @@ def build_vectorstore_in_memory(documents):
     """
     Same as build_vectorstore(), but does NOT save anything to disk.
 
-    Used by the web UI (app.py) when someone types in their own documents
+    Used by the web UI (apps.py) when someone types in their own documents
     on the spot - those are one-off, temporary, and should never overwrite
     the real saved index built from data/documents.csv.
     """

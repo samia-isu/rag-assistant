@@ -1,10 +1,3 @@
-"""
-Build the vector index from data/documents/.
-Run this once, and again anytime you add/change a document file.
-
-    python build_index.py
-"""
-
 from src.config import INDEX_DIR
 from src.ingest import load_knowledge_base_documents
 from src.vectorstore import build_vectorstore
