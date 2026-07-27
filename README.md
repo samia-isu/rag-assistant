@@ -151,7 +151,7 @@ To stop the app: `Ctrl+C` in the terminal running it.
 
 A step-by-step video walkthrough of this RAG Assistant project is available here:
 
-[Watch the RAG Assistant Demo on YouTube](https://youtu.be/rxzythx-gAU)
+[Watch the RAG Assistant Demo on YouTube](https://youtu.be/evK6qwPsj6c)
 
 ## Notes 
 
