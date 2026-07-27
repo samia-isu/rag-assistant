@@ -110,7 +110,7 @@ Then open the URL it prints (usually `http://127.0.0.1:3000`) in your browser.
 2. **Reference Documents** — upload one or more `.txt`, `.csv`, or `.pdf`
    files
 3. **Your Question** — type your question
-4. **Show Retrieved Context** — leave checked to see which chunks were
+4. **Retrieved Context** — leave checked to see which chunks were
    retrieved before the final answer
 5. Click **Run**
 
